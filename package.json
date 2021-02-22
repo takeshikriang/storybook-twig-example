@@ -1,0 +1,26 @@
+{
+  "name": "storybook-twig-example",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:takeshikriang/storybook-twig-example.git"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "env NODE_ENV=production build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.18",
+    "@storybook/addon-essentials": "^6.1.18",
+    "@storybook/addon-links": "^6.1.18",
+    "@storybook/html": "^6.1.18",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "babel-loader": "^8.2.2",
+    "postcss": "^7",
+    "tailwindcss": "yarn:@tailwindcss/postcss7-compat",
+    "twig": "^1.15.4",
+    "twig-loader": "^0.5.5"
+  }
+}
