@@ -25,5 +25,12 @@ Simply run the following command to build it
 $ yarn build-storybook
 ```
 
+## Example Docker
+NOTE: not for production use
+```
+$ docker-compose up -d --build
+```
+Open `http://localhost/?path=/story/card--default` in your browser
+
 ## License
 [MIT](https://github.com/takeshikriang/storybook-twig-example/blob/master/LICENSE)
